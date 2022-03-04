@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://catalinuh.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^4.6.1",
     "gh-pages": "^3.2.3",

@@ -61,7 +61,7 @@ class About extends React.Component {
         },
         {
           id: 'third-p-about',
-          content: `Now that I'm working as a React developer for Antra, my software engineer journey is just getting started and I can't wait to see where life will take me! Please feel free to reach out to me at any time and thank you for stopping by!`,
+          content: `Please feel free to reach out to me at any time and thank you for stopping by!`,
         },
       ],
     };
