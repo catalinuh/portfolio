@@ -1,12 +1,12 @@
-import React from "react";
-import imageOverlay from "../img/earth.jpg";
+import React from 'react';
+import imageOverlay from '../img/earth.jpg';
 
 class Contact extends React.Component {
   render() {
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(" + imageOverlay + ")" }}
+        style={{ backgroundImage: 'url(' + imageOverlay + ')' }}
       >
         <div className="overlay-mf"></div>
         <div className="container">
@@ -21,7 +21,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/mleznlzz"
                           method="POST"
                           className="contactForm"
                         >
@@ -118,7 +118,7 @@ class Contact extends React.Component {
                       <div className="socials">
                         <ul>
                           <li>
-                            <a
+                            {/* <a
                               href=""
                               target="_blank"
                               rel="noopener noreferrer"
@@ -126,11 +126,11 @@ class Contact extends React.Component {
                               <span className="ico-circle">
                                 <i className="ion-social-codepen"></i>
                               </span>
-                            </a>
+                            </a> */}
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/catalinuh"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/catalina-mcquade/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -163,8 +163,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>
