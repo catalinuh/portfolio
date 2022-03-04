@@ -18,9 +18,10 @@
     "typed.js": "^2.0.12"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build-app",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "build-app": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
