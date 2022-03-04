@@ -1,5 +1,4 @@
 import React from 'react';
-import myImage from '../img/myImage.png';
 
 class About extends React.Component {
   constructor() {
@@ -54,18 +53,15 @@ class About extends React.Component {
       about_me: [
         {
           id: 'first-p-about',
-          content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.',
+          content: `Hi, I'm Catalina. I have been passionate about coding ever since I can remember. It started out as creating a webpage for my Neopets using HTML and CSS. Wanting to pursue my passion, I studied Computer Science and received my associate degree. Still not satisfied with my proficiency, I enrolled in The Grace Hopper Program at Fullstack Academy, a coding bootcamp, where I learned full stack web development using my favorite JavaScript libraries like React, Express, PostgreSQL, and Sequelize.`,
         },
         {
           id: 'second-p-about',
-          content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.',
+          content: `I use every opportunity to improve my depth of knowledge, trying to be better than I was the day before. I never stop trying to learn, doing research and constant practice until I perfect my clients' projects. Helping people achieve their goals and the resulting satisfaction from projects I've worked on with them is my ultimate objective.`,
         },
         {
           id: 'third-p-about',
-          content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.',
+          content: `Now that I'm working as a React developer for Antra, my software engineer journey is just getting started and I can't wait to see where life will take me! Please feel free to reach out to me at any time and thank you for stopping by!`,
         },
       ],
     };
