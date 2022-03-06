@@ -12,7 +12,7 @@ import forest1 from '../img/Forestland1.png';
 import forest2 from '../img/Forestland2.png';
 
 import blog1 from '../img/blog1.png';
-import blog2 from '../img/blog1.png';
+import blog2 from '../img/blog2.png';
 
 class Portfolio extends React.Component {
   render() {
