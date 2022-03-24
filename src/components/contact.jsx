@@ -139,17 +139,6 @@ class Contact extends React.Component {
                               </span>
                             </a>
                           </li>
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/catalina-mcquade/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
-                              </span>
-                            </a>
-                          </li>
                         </ul>
                       </div>
                     </div>
