@@ -729,6 +729,17 @@ a:hover {
   grid-column: 1 / span 2;
 }
 
+@media (max-width: 767px) {
+  .experiences {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .experiences > .title-box-2 {
+    grid-column: 1;
+  }
+}
+
 /*======================================
 //--//-->   SERVICES
 ======================================*/

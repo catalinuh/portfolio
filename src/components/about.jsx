@@ -53,7 +53,7 @@ class About extends React.Component {
       about_me: [
         {
           id: 'first-p-about',
-          content: `Hi, I'm Catalina. I have been passionate about coding ever since I can remember. It started out as creating a webpage for my Neopets using HTML and CSS. Wanting to pursue my passion, I studied Computer Science and received my associate degree. Still not satisfied with my proficiency, I enrolled in The Grace Hopper Program at Fullstack Academy, a coding bootcamp, where I learned full stack web development using my favorite JavaScript libraries like React, Express, PostgreSQL, and Sequelize.`,
+          content: `Hi, I'm Catalina. I'm a software engineer with 4 years of experience but I have been passionate about coding ever since I can remember. It started out as creating a webpage for my Neopets using HTML and CSS. Wanting to pursue my passion, I studied Computer Science and received my associate degree. Luckily, while studying, I found my first job as a full-stack software engineer and have been doing what I love ever since!`,
         },
         {
           id: 'second-p-about',
