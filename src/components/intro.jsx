@@ -1,6 +1,6 @@
 import React from 'react';
 import './stars.scss';
-import Typed from 'react-typed';
+import { Typed } from 'react-typed';
 
 class Intro extends React.Component {
   render() {
