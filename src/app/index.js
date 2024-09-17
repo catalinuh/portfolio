@@ -17,7 +17,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './libs/easing.js';
 import 'lightbox2/dist/js/lightbox.min.js';
 
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker.js';
 
 //import components
 import Navbar from './components/navbar.jsx';
