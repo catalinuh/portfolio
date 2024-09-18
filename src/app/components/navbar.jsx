@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 // import $ from 'jquery';
 
 class Navbar extends React.Component {
   constructor() {
-    super();
+    super()
     this.state = {
       color: '#ffffff',
-    };
+    }
   }
 
   // componentDidMount() {
@@ -135,8 +135,8 @@ class Navbar extends React.Component {
           </div>
         </div>
       </nav>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar

@@ -1,6 +1,5 @@
-import React from 'react';
-import './stars.scss';
-import { Typed } from 'react-typed';
+import React from 'react'
+import './stars.scss'
 
 class Intro extends React.Component {
   render() {
@@ -18,7 +17,8 @@ class Intro extends React.Component {
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
-                  <Typed
+                  {/* TODO: Find an alternative to this component */}
+                  {/* <Typed
                     strings={[
                       'React Developer',
                       'Full Stack Developer',
@@ -28,7 +28,7 @@ class Intro extends React.Component {
                     backDelay={1100}
                     backSpeed={30}
                     loop
-                  />
+                  /> */}
                 </strong>
               </p>
               <p className="pt-3">
@@ -44,8 +44,8 @@ class Intro extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Intro;
+export default Intro

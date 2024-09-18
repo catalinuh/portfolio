@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import Image from 'next/image';
-import React, { Fragment, useState } from 'react';
+import Image from 'next/image'
+import React, { Fragment, useState } from 'react'
 
 export default function About() {
   const [skills, setSkills] = useState([
@@ -48,7 +48,7 @@ export default function About() {
       percentage: '75%',
       value: '75',
     },
-  ]);
+  ])
   const [aboutMe, setAboutMe] = useState([
     {
       id: 'first-p-about',
@@ -62,7 +62,7 @@ export default function About() {
       id: 'third-p-about',
       content: `Please feel free to reach out to me at any time and thank you for stopping by!`,
     },
-  ]);
+  ])
 
   return (
     <section id="about" className="about-mf sect-pt4 route">
@@ -81,7 +81,13 @@ export default function About() {
                         className="about-img"
                         style={{ textAlign: 'center' }}
                       >
-                        <Image src="img-fluid rounded b-shadow-a" alt="" />
+                        <Image
+                          alt=""
+                          className="img-fluid rounded b-shadow-a"
+                          height={100}
+                          src=""
+                          width={100}
+                        />
                       </div>
                     </div>
                   </div>
@@ -103,7 +109,7 @@ export default function About() {
                             />
                           </div>
                         </Fragment>
-                      );
+                      )
                     })}
                   </div>
                 </div>
@@ -117,7 +123,7 @@ export default function About() {
                         <p className="lead" key={content.id}>
                           {content.content}
                         </p>
-                      );
+                      )
                     })}
                   </div>
                 </div>
@@ -127,5 +133,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  );
+  )
 }

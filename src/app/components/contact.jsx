@@ -1,5 +1,5 @@
-import React from 'react';
-import imageOverlay from '../img/earth.jpg';
+import React from 'react'
+import imageOverlay from '../img/earth.jpg'
 
 class Contact extends React.Component {
   render() {
@@ -104,7 +104,7 @@ class Contact extends React.Component {
                       <div className="more-info">
                         <p className="lead">
                           Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
+                          collaboration, or just say hi, I\'d love to hear from
                           you.
                           <br />
                           Simply fill in the form and send me an email.
@@ -158,8 +158,8 @@ class Contact extends React.Component {
           </div>
         </footer>
       </section>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Contact
