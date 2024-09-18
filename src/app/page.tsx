@@ -13,6 +13,9 @@ import Experience from './components/experience'
 
 // import styles from './page.module.css';
 
+import './style.css'
+import './animate.css'
+
 export default function Home() {
   return (
     <Fragment>
