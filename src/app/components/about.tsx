@@ -1,9 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import Image from 'next/image'
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 
 export default function About() {
-  const [skills, setSkills] = useState([
+  const skills = ([
     {
       id: 'JavaScript_skill',
       content: 'JavaScript',
@@ -49,7 +48,7 @@ export default function About() {
       value: '75',
     },
   ])
-  const [aboutMe, setAboutMe] = useState([
+  const aboutMe = ([
     {
       id: 'first-p-about',
       content: `Hi, I'm Catalina. I'm a software engineer with 4 years of experience but I have been passionate about coding ever since I can remember. It started out as creating a webpage for my Neopets using HTML and CSS. Wanting to pursue my passion, I studied Computer Science and received my associate degree. Luckily, while studying, I found my first job as a full-stack software engineer and have been doing what I love ever since!`,

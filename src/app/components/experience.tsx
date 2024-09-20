@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
-
 export default function Experience() {
-  const [experience, setExperience] = useState([
+  const experience = ([
     {
       id: 'first-p-exp',
       title: 'Audubon National Society',

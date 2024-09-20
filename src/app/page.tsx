@@ -11,8 +11,7 @@ import BackToTop from './components/back-top'
 import Preloader from './components/preloader'
 import Experience from './components/experience'
 
-// import styles from './page.module.css';
-
+import './page.module.css'
 import './style.css'
 import './animate.css'
 
