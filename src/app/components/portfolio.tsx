@@ -1,7 +1,26 @@
 import React from 'react'
 import Image from 'next/image'
 
+//import stock
+import wanderlist1 from '../../../public/img/Wanderlist1.png'
+import wanderlist2 from '../../../public/img/Wanderlist2.png'
+import wanderlist3 from '../../../public/img/Wanderlist3.png'
+
+import regex1 from '../../../public/img/RegexSpaceship1.png'
+import regex2 from '../../../public/img/RegexSpaceship2.png'
+import regex3 from '../../../public/img/RegexSpaceship3.png'
+import regex4 from '../../../public/img/RegexSpaceship4.png'
+import regex5 from '../../../public/img/RegexSpaceship5.png'
+
+import blog1 from '../../../public/img/blog1.png'
+import blog2 from '../../../public/img/blog2.png'
+
+import forest1 from '../../../public/img/Forestland1.png'
+import forest2 from '../../../public/img/Forestland2.png'
+
 export default function Portfolio() {
+  console.log('test');
+
   return (
     <section id="work" className="portfolio-mf sect-pt4 route">
       <div className="container">
@@ -19,9 +38,9 @@ export default function Portfolio() {
         <div className="row">
           <div className="col-md-4">
             <div className="work-box">
-              <a href='/public/img/Wanderlist1.png' data-lightbox="gallery-potato">
+              <a href={`${wanderlist1.blurDataURL}`} data-lightbox="gallery-potato">
                 <div className="work-img">
-                  <Image src="/public/img/Wanderlist1.png" alt="" className="img-fluid" height={100} width={100} />
+                  <Image src={wanderlist1} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -42,14 +61,14 @@ export default function Portfolio() {
                 </div>
               </a>
               <a
-                href='/public/img/Wanderlist2.png'
+                href={`${wanderlist2}`}
                 data-lightbox="gallery-potato"
                 style={{ display: 'none' }}
               >
                 jsx-a11y/anchor-has-content warning
               </a>
               <a
-                href='/public/img/Wanderlist3.png'
+                href={`${wanderlist3}`}
                 data-lightbox="gallery-potato"
                 style={{ display: 'none' }}
               >
@@ -59,9 +78,9 @@ export default function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href='/public/img/RegexSpaceship1.png' data-lightbox="gallery-todo">
+              <a href={`${regex1}`} data-lightbox="gallery-todo">
                 <div className="work-img">
-                  <img src='/public/img/RegexSpaceship1.png' alt="" className="img-fluid" />
+                  <Image src={regex1} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -83,28 +102,28 @@ export default function Portfolio() {
                 </div>
               </a>
               <a
-                href='/public/img/RegexSpaceship2.png'
+                href={`${regex2}`}
                 data-lightbox="gallery-todo"
                 style={{ display: 'none' }}
               >
                 jsx-a11y/anchor-has-content warning
               </a>
               <a
-                href='/public/img/RegexSpaceship3.png'
+                href={`${regex3}`}
                 data-lightbox="gallery-todo"
                 style={{ display: 'none' }}
               >
                 jsx-a11y/anchor-has-content warning
               </a>
               <a
-                href='/public/img/RegexSpaceship4.png'
+                href={`${regex4}`}
                 data-lightbox="gallery-todo"
                 style={{ display: 'none' }}
               >
                 jsx-a11y/anchor-has-content warning
               </a>
               <a
-                href='/public/img/RegexSpaceship5.png'
+                href={`${regex5}`}
                 data-lightbox="gallery-todo"
                 style={{ display: 'none' }}
               >
@@ -114,9 +133,9 @@ export default function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href='/public/img/blog1.png' data-lightbox="gallery-vmarine">
+              <a href={`${blog1}`} data-lightbox="gallery-vmarine">
                 <div className="work-img">
-                  <img src='/public/img/blog1.png' alt="" className="img-fluid" />
+                  <Image src={blog1} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -137,7 +156,7 @@ export default function Portfolio() {
                 </div>
               </a>
               <a
-                href='/public/img/blog1.png'
+                href={`${blog2}`}
                 data-lightbox="gallery-vmarine"
                 style={{ display: 'none' }}
               >
@@ -147,9 +166,9 @@ export default function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href='/public/img/Forestland1.png' data-lightbox="gallery-aguadeluz">
+              <a href={`${forest1}`} data-lightbox="gallery-aguadeluz">
                 <div className="work-img">
-                  <img src='/public/img/Forestland1.png' alt="" className="img-fluid" />
+                  <Image src={forest1} alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -168,7 +187,7 @@ export default function Portfolio() {
                 </div>
               </a>
               <a
-                href='/public/img/Forestland2.png'
+                href={`${forest2}`}
                 data-lightbox="gallery-aguadeluz"
                 style={{ display: 'none' }}
               >

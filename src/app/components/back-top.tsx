@@ -11,7 +11,7 @@ export default function BackToTop() {
     } else {
       setClassName('fadeOut')
     }
-  }, [window?.scrollY])
+  }, [])
 
   const handleClickBackToTop = () => {
     window?.scrollTo(0, 0)

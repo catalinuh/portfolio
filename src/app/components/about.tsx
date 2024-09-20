@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React, { Fragment } from 'react'
 
+import team from '../../../public/team.png'
+
 export default function About() {
   const skills = ([
     {
@@ -84,7 +86,7 @@ export default function About() {
                           alt=""
                           className="img-fluid rounded b-shadow-a"
                           height={100}
-                          src=""
+                          src={team}
                           width={100}
                         />
                       </div>
