@@ -19,8 +19,6 @@ import forest1 from '../../../public/img/Forestland1.png'
 import forest2 from '../../../public/img/Forestland2.png'
 
 export default function Portfolio() {
-  console.log('test');
-
   return (
     <section id="work" className="portfolio-mf sect-pt4 route">
       <div className="container">
