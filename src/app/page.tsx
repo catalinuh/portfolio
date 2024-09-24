@@ -1,6 +1,5 @@
 'use client'
 import { Fragment } from 'react'
-// import Image from 'next/image';
 
 import Navbar from './components/navbar'
 import Intro from './components/intro'
