@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import $ from 'jquery'
 
 export default function Preloader() {
+  const [showLoader, setShowLoader] = useState(false)
+
   useEffect(() => {
     $(window).on('load', function () {
       if ($('#preloader').length) {
@@ -14,5 +16,7 @@ export default function Preloader() {
     })
   }, [])
 
-  return <div id="preloader"></div>
+  return <>
+    {showLoader && <div id="preloader"></div>}
+  </>
 }
