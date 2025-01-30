@@ -1,10 +1,8 @@
 import Image from 'next/image'
 import React, { Fragment } from 'react'
 
-import team from '../../../public/team.png'
-
 export default function About() {
-  const skills = ([
+  const skills = [
     {
       id: 'JavaScript_skill',
       content: 'JavaScript',
@@ -49,8 +47,8 @@ export default function About() {
       percentage: '75%',
       value: '75',
     },
-  ])
-  const aboutMe = ([
+  ]
+  const aboutMe = [
     {
       id: 'first-p-about',
       content: `Hi, I'm Catalina. I'm a software engineer with 4 years of experience but I have been passionate about coding ever since I can remember. It started out as creating a webpage for my Neopets using HTML and CSS. Wanting to pursue my passion, I studied Computer Science and received my associate degree. Luckily, while studying, I found my first job as a full-stack software engineer and have been doing what I love ever since!`,
@@ -63,7 +61,7 @@ export default function About() {
       id: 'third-p-about',
       content: `Please feel free to reach out to me at any time and thank you for stopping by!`,
     },
-  ])
+  ]
 
   return (
     <section id="about" className="about-mf sect-pt4 route">
@@ -82,13 +80,13 @@ export default function About() {
                         className="about-img"
                         style={{ textAlign: 'center' }}
                       >
-                        <Image
+                        {/* <Image
                           alt=""
                           className="img-fluid rounded b-shadow-a"
                           height={100}
                           src={team}
                           width={100}
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>

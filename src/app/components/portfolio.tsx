@@ -2,21 +2,21 @@ import React from 'react'
 import Image from 'next/image'
 
 //import stock
-import wanderlist1 from '../../../public/img/Wanderlist1.png'
-import wanderlist2 from '../../../public/img/Wanderlist2.png'
-import wanderlist3 from '../../../public/img/Wanderlist3.png'
+const wanderlist1 = '../../../public/img/Wanderlist1.png'
+const wanderlist2 = '../../../public/img/Wanderlist2.png'
+const wanderlist3 = '../../../public/img/Wanderlist3.png'
 
-import regex1 from '../../../public/img/RegexSpaceship1.png'
-import regex2 from '../../../public/img/RegexSpaceship2.png'
-import regex3 from '../../../public/img/RegexSpaceship3.png'
-import regex4 from '../../../public/img/RegexSpaceship4.png'
-import regex5 from '../../../public/img/RegexSpaceship5.png'
+const regex1 = '../../../public/img/RegexSpaceship1.png'
+const regex2 = '../../../public/img/RegexSpaceship2.png'
+const regex3 = '../../../public/img/RegexSpaceship3.png'
+const regex4 = '../../../public/img/RegexSpaceship4.png'
+const regex5 = '../../../public/img/RegexSpaceship5.png'
 
-import blog1 from '../../../public/img/blog1.png'
-import blog2 from '../../../public/img/blog2.png'
+const blog1 = '../../../public/img/blog1.png'
+const blog2 = '../../../public/img/blog2.png'
 
-import forest1 from '../../../public/img/Forestland1.png'
-import forest2 from '../../../public/img/Forestland2.png'
+const forest1 = '../../../public/img/Forestland1.png'
+const forest2 = '../../../public/img/Forestland2.png'
 
 export default function Portfolio() {
   return (
@@ -36,9 +36,9 @@ export default function Portfolio() {
         <div className="row">
           <div className="col-md-4">
             <div className="work-box">
-              <a href={`${wanderlist1.blurDataURL}`} data-lightbox="gallery-potato">
+              <a href={`${wanderlist1}`} data-lightbox="gallery-potato">
                 <div className="work-img">
-                  <Image src={wanderlist1} alt="" className="img-fluid" />
+                  {/* <Image src={wanderlist1} alt="" className="img-fluid" /> */}
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -78,7 +78,7 @@ export default function Portfolio() {
             <div className="work-box">
               <a href={`${regex1}`} data-lightbox="gallery-todo">
                 <div className="work-img">
-                  <Image src={regex1} alt="" className="img-fluid" />
+                  {/* <Image src={regex1} alt="" className="img-fluid" /> */}
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -133,7 +133,7 @@ export default function Portfolio() {
             <div className="work-box">
               <a href={`${blog1}`} data-lightbox="gallery-vmarine">
                 <div className="work-img">
-                  <Image src={blog1} alt="" className="img-fluid" />
+                  {/* <Image src={blog1} alt="" className="img-fluid" /> */}
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">
@@ -166,7 +166,7 @@ export default function Portfolio() {
             <div className="work-box">
               <a href={`${forest1}`} data-lightbox="gallery-aguadeluz">
                 <div className="work-img">
-                  <Image src={forest1} alt="" className="img-fluid" />
+                  {/* <Image src={forest1} alt="" className="img-fluid" /> */}
                 </div>
                 <div className="work-content">
                   <div className="row portfolio">

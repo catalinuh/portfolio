@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import $ from 'jquery'
+// import $ from 'jquery'
 
 export default function Navbar() {
   const [color, setColor] = useState('#ffffff')
 
   useEffect(() => {
-    const nav = $('nav')
-    let navHeight = nav.outerHeight()
+    // const nav = $('nav')
+    // let navHeight = nav.outerHeight()
 
     // $('body').scrollspy({
     //   target: '#mainNav',
@@ -56,9 +56,9 @@ export default function Navbar() {
   }, [])
 
   const handleToggleNavbar = () => {
-    if (!$('#mainNav').hasClass('navbar-reduce')) {
-      $('#mainNav').addClass('navbar-reduce')
-    }
+    // if (!$('#mainNav').hasClass('navbar-reduce')) {
+    // $('#mainNav').addClass('navbar-reduce')
+    // }
   }
 
   const handleClickNavLink = () => {

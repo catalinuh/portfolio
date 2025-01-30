@@ -1,5 +1,5 @@
 export default function Experience() {
-  const experience = ([
+  const experience = [
     {
       id: 'first-p-exp',
       title: 'Audubon National Society',
@@ -47,7 +47,7 @@ export default function Experience() {
         with colleague developers in project development`,
       ],
     },
-  ])
+  ]
 
   return (
     <section id="experience" className="about-mf sect-pt4 route">

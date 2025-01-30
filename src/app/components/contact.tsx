@@ -1,11 +1,11 @@
 import React from 'react'
-import imageOverlay from '../../../public/img/earth.jpg'
+// import imageOverlay from '../../../public/img/earth.jpg'
 
 export default function Contact() {
   return (
     <section
       className="paralax-mf footer-paralax bg-image sect-mt4 route"
-      style={{ backgroundImage: 'url(' + imageOverlay + ')' }}
+      //   style={{ backgroundImage: 'url(' + imageOverlay + ')' }}
     >
       <div className="overlay-mf"></div>
       <div className="container">
