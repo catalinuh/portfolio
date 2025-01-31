@@ -1,14 +1,14 @@
 'use client'
 // @refresh reset
 import { Fragment } from 'react'
-import Navbar from './components/navbar'
-import About from './components/about'
-import BackToTop from './components/back-top'
-import Contact from './components/contact'
-import Experience from './components/experience'
-import Intro from './components/intro'
-import Portfolio from './components/portfolio'
-import Preloader from './components/preloader'
+import Navbar from './components-old/navbar'
+import About from './components-old/about'
+import BackToTop from './components-old/back-top'
+import Contact from './components-old/contact'
+import Experience from './components-old/experience'
+import Intro from './components-old/intro'
+import Portfolio from './components-old/portfolio'
+import Preloader from './components-old/preloader'
 
 export default function Home() {
   return (
