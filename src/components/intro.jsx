@@ -1,6 +1,6 @@
-import React from 'react';
-import './stars.scss';
-import Typed from 'react-typed';
+import React from 'react'
+import './stars.scss'
+import { ReactTyped } from 'react-typed'
 
 class Intro extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Intro extends React.Component {
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
-                  <Typed
+                  <ReactTyped
                     strings={[
                       'React Developer',
                       'Full Stack Developer',
@@ -44,8 +44,8 @@ class Intro extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Intro;
+export default Intro

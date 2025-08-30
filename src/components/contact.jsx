@@ -1,5 +1,5 @@
-import React from 'react';
-import imageOverlay from '../img/earth.jpg';
+import React from 'react'
+import imageOverlay from '../img/earth.jpg'
 
 class Contact extends React.Component {
   render() {
@@ -7,6 +7,7 @@ class Contact extends React.Component {
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
         style={{ backgroundImage: 'url(' + imageOverlay + ')' }}
+        id="contact"
       >
         <div className="overlay-mf"></div>
         <div className="container">
@@ -158,8 +159,8 @@ class Contact extends React.Component {
           </div>
         </footer>
       </section>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Contact
