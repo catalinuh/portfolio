@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^9.34.0",
     "typescript": "^4.9.5"
   }
 }
