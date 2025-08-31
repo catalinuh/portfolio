@@ -16,21 +16,15 @@
     "popper.js": "^1.16.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-scripts": "^5.0.1",
     "react-typed": "^2.0.12",
+    "sass": "^1.91.0",
     "serve": "^14.2.4",
     "typed.js": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build",
-    "react-start": "react-scripts start"
+    "dev": "next dev --turbopack",
+    "start": "npx serve@latest ./build",
+    "build": "next build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }

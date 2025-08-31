@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 
 class Experience extends React.Component {
   constructor() {
-    super();
+    super()
     this.state = {
       experience: [
         {
           id: 'first-p-exp',
           title: 'Audubon National Society',
           position: 'React Developer',
-          datesWorked: 'February 2021 - Present',
+          datesWorked: 'February 2021 - March 2022',
           content: [
             `Migrated their website that used previous libraries,
           Backbone.js and jQuery, to use newer and more versatile
@@ -54,7 +54,7 @@ class Experience extends React.Component {
           ],
         },
       ],
-    };
+    }
   }
 
   render() {
@@ -77,11 +77,11 @@ class Experience extends React.Component {
                           <h6>{content.datesWorked}</h6>
                           <ul className="lead">
                             {content.content.map((bullet) => {
-                              return <li key={bullet}>{bullet}</li>;
+                              return <li key={bullet}>{bullet}</li>
                             })}
                           </ul>
                         </div>
-                      );
+                      )
                     })}
                   </div>
                 </div>
@@ -90,8 +90,8 @@ class Experience extends React.Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default Experience;
+export default Experience

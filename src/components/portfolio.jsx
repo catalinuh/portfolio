@@ -1,21 +1,21 @@
-import React from 'react';
+import React from 'react'
 
 //import stock
-import wanderlist1 from '../img/Wanderlist1.png';
-import wanderlist2 from '../img/Wanderlist2.png';
-import wanderlist3 from '../img/Wanderlist3.png';
+import wanderlist1 from '../img/Wanderlist1.png'
+import wanderlist2 from '../img/Wanderlist2.png'
+import wanderlist3 from '../img/Wanderlist3.png'
 
-import regex1 from '../img/RegexSpaceship1.png';
-import regex2 from '../img/RegexSpaceship2.png';
-import regex3 from '../img/RegexSpaceship3.png';
-import regex4 from '../img/RegexSpaceship4.png';
-import regex5 from '../img/RegexSpaceship5.png';
+import regex1 from '../img/RegexSpaceship1.png'
+import regex2 from '../img/RegexSpaceship2.png'
+import regex3 from '../img/RegexSpaceship3.png'
+import regex4 from '../img/RegexSpaceship4.png'
+import regex5 from '../img/RegexSpaceship5.png'
 
-import blog1 from '../img/blog1.png';
-import blog2 from '../img/blog2.png';
+import blog1 from '../img/blog1.png'
+import blog2 from '../img/blog2.png'
 
-import forest1 from '../img/Forestland1.png';
-import forest2 from '../img/Forestland2.png';
+import forest1 from '../img/Forestland1.png'
+import forest2 from '../img/Forestland2.png'
 
 class Portfolio extends React.Component {
   render() {
@@ -38,7 +38,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={wanderlist1} data-lightbox="gallery-potato">
                   <div className="work-img">
-                    <img src={wanderlist1} alt="" className="img-fluid" />
+                    <img src={wanderlist1.src} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row portfolio">
@@ -78,7 +78,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={regex1} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={regex1} alt="" className="img-fluid" />
+                    <img src={regex1.src} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row portfolio">
@@ -133,7 +133,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={blog1} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={blog1} alt="" className="img-fluid" />
+                    <img src={blog1.src} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row portfolio">
@@ -166,7 +166,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={forest1} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={forest1} alt="" className="img-fluid" />
+                    <img src={forest1.src} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row portfolio">
@@ -196,8 +196,8 @@ class Portfolio extends React.Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default Portfolio;
+export default Portfolio
