@@ -1,4 +1,3 @@
-//import css in order
 import 'normalize.css'
 import '../animate.css'
 import 'bootstrap/dist/css/bootstrap.css'

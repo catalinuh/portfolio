@@ -1,12 +1,19 @@
 import React from 'react'
+
 import imageOverlay from '../img/earth.jpg'
 
 class Contact extends React.Component {
   render() {
+    const sectionStyle = {
+      backgroundImage: `url(${imageOverlay})`,
+      height: '100vh', // Add height to the section
+      backgroundSize: 'cover', // Optional: Ensures the image covers the element
+    }
+
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: 'url(' + imageOverlay + ')' }}
+        style={sectionStyle}
         id="contact"
       >
         <div className="overlay-mf"></div>

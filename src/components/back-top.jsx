@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+
 import '../libs/easing.js'
 
 // Custom animation function to mimic jQuery's 'easeInOutExpo'

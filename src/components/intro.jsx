@@ -1,5 +1,5 @@
 import React from 'react'
-import './stars.scss'
+import '../css/stars.scss'
 import { ReactTyped } from 'react-typed'
 
 class Intro extends React.Component {

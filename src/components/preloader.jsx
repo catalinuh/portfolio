@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import '../preloader.scss'
+
+import '../css/preloader.scss'
 
 const Preloader = () => {
   const [isLoading, setIsLoading] = useState(false)
